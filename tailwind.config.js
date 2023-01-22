@@ -9,4 +9,7 @@ module.exports = {
     extend: {},
   },
   plugins: [require("tailwind-scrollbar-hide")],
+  variants: {
+    borderWidth: ["responsive", "first"],
+  },
 };
