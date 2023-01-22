@@ -44,7 +44,7 @@ function Header({ placeholder = "" }: HeaderProps) {
 
   const handleDateRangeSelect = (range: any) => {
     setStartDate(range.selection.startDate);
-    setEndDate(range.election.endDate);
+    setEndDate(range.selection.endDate);
   };
 
   const handleNoOfGuestsChange = (e: React.ChangeEvent<HTMLInputElement>) => {
