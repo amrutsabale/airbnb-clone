@@ -59,7 +59,7 @@ const Home: NextPage<HomeProps> = ({ exploreData, cardsData }) => {
           </div>
         </section>
         <LargeCard
-          img="https:///links.papareact.com/4cj"
+          img="/largeCardImage.webp"
           title="The Greatest Outdoors"
           description="Wishlist curated by Airbnb."
           buttonText="Get Inspired"
