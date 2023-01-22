@@ -8,6 +8,7 @@
   "dependencies": {
     "@badrap/bar-of-progress": "^0.2.2",
     "@heroicons/react": "v1",
+    "@types/react-date-range": "^1.4.4",
     "date-fns": "^2.29.3",
     "next": "latest",
     "react": "18.2.0",

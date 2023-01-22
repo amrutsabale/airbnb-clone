@@ -42,9 +42,9 @@ function Header({ placeholder = "" }: HeaderProps) {
     setSearchInput(e.target.value);
   };
 
-  const handleDateRangeSelect = ({ selection }: { selection: Selection }) => {
-    setStartDate(selection.startDate);
-    setEndDate(selection.endDate);
+  const handleDateRangeSelect = (range: any) => {
+    setStartDate(range.selection.startDate);
+    setEndDate(range.election.endDate);
   };
 
   const handleNoOfGuestsChange = (e: React.ChangeEvent<HTMLInputElement>) => {
