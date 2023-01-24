@@ -87,6 +87,7 @@ export async function getServerSideProps() {
   // const searchResults = await fetch("https://jsonkeeper.com/b/QKRS").then(
   //   (res) => res.json()
   // );
+  // As above API not working so taken just mock
   const searchResults = SEARCH_RESULTS;
 
   return {

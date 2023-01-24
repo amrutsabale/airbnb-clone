@@ -73,6 +73,7 @@ const Home: NextPage<HomeProps> = ({ exploreData, cardsData }) => {
 export async function getStaticProps() {
   // const response = await fetch("https://links.papareact.com/pyp");
   // const exploreData: ExploreDataItem[] = await response.json();
+  // As above APIs are not working so taken just mocks
   const exploreData = SMALL_CARDS_DATA;
   const cardsData = MEDIUM_CARDS_DATA;
   return {
