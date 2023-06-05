@@ -2,7 +2,7 @@
 
 ## Live Demo
 
-[airbnb-clone-amrutsabale.vercel.app](airbnb-clone-amrutsabale.vercel.app)
+[airbnb-clone-amrutsabale.vercel.app](https://airbnb-clone-amrutsabale.vercel.app/)
 
 ## Getting Started
 
